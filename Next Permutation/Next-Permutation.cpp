@@ -1,6 +1,9 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 class Solution {
 public:
-    void nextPermutation(vector<int>& nums) {
+    void nextPermutation(vector<int> & nums) {
         int n = nums.size();
 
         for(int i = n - 2; i > - 1; --i){

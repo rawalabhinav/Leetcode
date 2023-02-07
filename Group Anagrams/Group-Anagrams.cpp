@@ -15,11 +15,3 @@ vector <vector <string>> groupAnagrams(vector <string>& s){
 	for(auto&p: m) ans.push_back(p.second);
 	return ans;
 }
-
-signed main(){
-	vector<string> s ={
-		"eat", "tea", "tan", "ate", "nat", "bat"
-	};
-	
-	vector<vector<string>> ans = groupAnagrams(s);
-}
