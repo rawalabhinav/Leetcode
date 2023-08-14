@@ -7,7 +7,7 @@ using namespace std;
 
 class Solution {
 public:
-    bool validPartition(vectorv<int> & nums) {
+    bool validPartition(vector <int> & nums) {
         int n = nums.size();
         if (n == 1) return false;
 
