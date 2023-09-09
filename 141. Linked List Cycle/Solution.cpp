@@ -5,7 +5,6 @@ using namespace std;
     #include <Collections/debug.h>
 #endif
 
-
 struct ListNode {
     int val;
     ListNode *next;
