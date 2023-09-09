@@ -16,10 +16,7 @@ public:
     const int smol = -1 -1e5;
     bool hasCycle(ListNode *head) {
         for(; head != NULL; head = head -> next){
-            if (head -> val == smol){
-                return true;
-            }
-
+            if (head -> val == smol) return true;
             head -> val = smol;
         }
 
